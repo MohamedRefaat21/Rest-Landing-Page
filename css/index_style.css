@@ -1,0 +1,141 @@
+body 
+{
+    font-family: 'Hammersmith One', sans-serif;
+}
+.home
+{
+    height: 130vh;
+    background-image: url(../img/backS.png);
+    background-size: 100% 100%;
+}
+.navbar .nav-link 
+{
+    color: #fff !important;
+    padding: 20px;
+    margin: 30px;
+    font-size: 30px;
+}
+.navbar img
+{
+    width: 10%;
+}
+.nav-item ::after
+{
+content: '';
+display: block;
+width: 0;
+height: 3px;
+background:white;
+transition: width .3s;
+}
+
+.nav-item :hover::after
+{
+width: 100%;
+transition: width .3s;
+}
+.caption
+{
+    margin-left: 33%;
+    margin-top: 5%;
+}
+.caption h1 
+{
+   letter-spacing: 2px;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 800;
+    width: 50%;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.caption p
+{
+    color: #fff;
+    width: 40%;
+}
+#menu
+{
+    height: 100vh;
+    background-color: #fff;
+}
+#menu h1 
+{
+    color: black;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    
+}
+.container
+{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+.content-1
+{
+    background-color: #fff;
+    margin-top: 40%;
+
+}
+.content-1 h1 
+{
+    color: rgba(255,66,66,0.968627);
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.btn:hover
+{
+    background-color:rgba(255,66,66,0.968627);
+}
+.btn 
+{
+    padding: 17px 39px 15px 43px;
+    background-color: #1b1b1b;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#order
+{
+    color: #fff;
+    margin-top: 2rem;
+    height: 50vh;
+    background-color: #ff4242;
+}
+#order i 
+{
+    font-size: 4rem;
+    margin-top: 17%;
+    padding: 5px;
+}
+#order h1 
+{
+    margin-top: 10px;
+}
+#Delivery
+{
+    height: 80vh;
+    background-image: url(../img/01.png);
+    background-size: 100% 100% ;
+}
+.titlle
+{
+    margin-left: 10%;
+    text-align: center;
+     padding: 10px;
+}
+.titlle h1
+{
+    color: #ff4242;
+    margin-top: 50px;
+}
+#reviews
+{
+    height: 100vh;
+    
+}
